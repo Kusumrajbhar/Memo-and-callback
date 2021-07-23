@@ -50,3 +50,6 @@ export default App;
 //as we run this code every time new object created hence child memo consider different references hence doing re rendering
 // memoizedCallback this stores a function in a same memory location so now memo will not get different props from different location
 //hence stops unnecessary re-rendering
+
+// useCallback vs useMemo:
+// useCallback(fn, deps) is equivalent to useMemo(() => fn, deps).
